@@ -1,0 +1,48 @@
+# ── Python cache ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environments ────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Pipeline artefacts ──────────────────────────────────────────────────────
+temp/
+output/
+pipeline.log
+*.wav
+*.mp3
+
+# ── Downloaded model weights (large binary files) ───────────────────────────
+models/
+# If you want to version-track specific checkpoint files, add exceptions:
+# !models/Wav2Lip/checkpoints/wav2lip_gan.pth
+
+# ── Jupyter Notebooks checkpoints ──────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── IDEs ─────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Secrets / env ────────────────────────────────────────────────────────────
+.env
+*.env
+secrets.yaml
